@@ -1,6 +1,6 @@
 window.addEventListener('load', function (e) {
     // URL Server D-B //
-    const url = 'http://localhost:3000/people'
+    const url = 'http://localhost:3000/savol'
 
     function requestServer(url) {
         return fetch(url).then(res => {
@@ -15,14 +15,11 @@ window.addEventListener('load', function (e) {
     requestServer(url).then(data => {
         const titleInfo = document.querySelector('.title_info');
         data.forEach((val, index) => {
-            // const ser = document.createElement('div')
-            titleInfo.innerHTML = `
-            
-            `
-            titleInfo.appendChild(ser)
-            console.log(val);
+            titleInfo.innerHTML = val.savol1
+
+            titleInfo.appendChild(titleInfo)
         })
     }).catch((err) => {
-        console.error(err);
+        // console.error(err);
     })
 });

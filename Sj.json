@@ -1,0 +1,25 @@
+{
+    "savol": [
+        {
+            "savol1": "[ h1, h2, h3, h4 ,h5 ,h6 ] qanday teg hisoblanadi?",
+            "javob1": "matinli",
+            "javob2": "blokli",
+            "javob3": "har ikkalasi",
+            "javob4": "har ikkalasi"
+        },
+        {
+            "savol2": "[ h7 h9 ] teglari bormi?",
+            "javob1": "yo'q",
+            "javob2": "ha",
+            "javob3": "h7 tegi mavjud",
+            "javob4": "h9 tegi yo'q"
+        },
+        {
+            "savol3": "[ 'a' ] tegi qanday teg hisoblanadi?",
+            "javob1": "blokli teg",
+            "javob2": "matinli teg",
+            "javob3": "har ikkalasi",
+            "javob4": "teg emas"
+        }
+    ]
+}
