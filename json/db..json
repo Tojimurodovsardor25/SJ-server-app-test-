@@ -1,0 +1,10 @@
+{
+    "people": [
+        {
+            "name": "margarita",
+            "id": "3",
+            "age": "11",
+            "like": "100"
+        }
+    ]
+}

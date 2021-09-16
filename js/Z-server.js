@@ -1,0 +1,28 @@
+window.addEventListener('load', function (e) {
+    // URL Server D-B //
+    const url = 'http://localhost:3000/people'
+
+    function requestServer(url) {
+        return fetch(url).then(res => {
+            if (res.ok) {
+                return res.json()
+            } else {
+                console.error('Xato', res.status);
+            }
+        })
+    }
+
+    requestServer(url).then(data => {
+        const titleInfo = document.querySelector('.title_info');
+        data.forEach((val, index) => {
+            // const ser = document.createElement('div')
+            titleInfo.innerHTML = `
+            
+            `
+            titleInfo.appendChild(ser)
+            console.log(val);
+        })
+    }).catch((err) => {
+        console.error(err);
+    })
+});
